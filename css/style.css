@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(20% - 20px);
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+
+
+
+
+#tequila {
+    height: 150px;
+    cursor: move;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+#tequila:active {
+    border: 2px dashed green;
+}
+
+#dropzone {
+    height: 200px;
+    width: 300px;
+    border: 2px dashed orangered;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: orangered;
+    font-weight: bold;
+}
+
+#dropzone.dragover {
+    background-color: #ffe6e6;
+    border-color: green;
+    color: green;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+    text-align: center;
+}
+
+#tequila2 {
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.boton {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: darkblue;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

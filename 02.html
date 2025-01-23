@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Licorería Sabor Divino</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="cuerpo">
+
+<h1>¡Aquí puedes agregar recomendaciones de botellas!</h1>
+<div>
+  <img id="tequila2" src="img/Tequila2.jpg" alt="Tequila" />
+</div>
+<br/><br /><br />
+
+<label>Nombre del Licor:</label>
+<label for="nombre">
+  <input type="text" id="nombre" placeholder="Ej: Whiskey Johnnie Walker">
+</label>
+<br><br>
+
+<label>Precio:</label>
+<label for="precio">
+  <input type="number" id="precio" placeholder="Ej: 500">
+</label>
+<br><br>
+
+<label>Tipo de Alcohol:</label>
+<label for="tipo">
+  <select id="tipo">
+    <option value="default">---Seleccione el Tipo de Alcohol---</option>
+    <option value="whiskey">Whiskey</option>
+    <option value="tequila">Tequila</option>
+    <option value="ron">Ron</option>
+    <option value="brandi">Brandi</option>
+    <option value="licor-de-caña">Licor de Caña</option>
+  </select>
+</label>
+<br><br>
+
+<label>Contenido Neto (ml):</label>
+<label for="contenido">
+  <input type="number" id="contenido" placeholder="Ej: 750">
+</label>
+<br><br>
+
+<label>Grado Alcohólico (%):</label>
+<label for="grado">
+  <input type="number" id="grado" placeholder="Ej: 40">
+</label>
+<br><br>
+
+<label for="botellasSelect">Botellas Registradas:</label>
+<select id="botellasSelect">
+  <option value="">---Seleccione una Botella---</option>
+</select>
+<br><br>
+
+<div class="button-container">
+  <button id="registrar">Registrar</button>
+  <button id="actualizar">Actualizar</button>
+  <button id="eliminar">Eliminar</button>
+  <button id="limpiar">Limpiar</button>
+</div>
+
+
+<p align="center">
+  <b>Regresar a la página principal</b><br /><br />
+  <a href="index.html" class="boton">¡Haz clic aquí!</a>
+</p>
+
+<script type="module" src="js/index.js"></script>
+</body>
+</html>
